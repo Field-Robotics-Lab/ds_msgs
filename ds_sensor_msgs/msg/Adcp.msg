@@ -37,10 +37,10 @@ uint8 coordinate_mode
 uint8 adcp_type
 
 #num bins 
-*uint8 cells
+uint8 cells
 
 #length of each depth bin [m]
-*uint16 cell_depth
+uint16 cell_depth
 
 #Distance to middle of first depth bin [m]
 float32 bin0_distance
