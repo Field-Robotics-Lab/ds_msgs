@@ -54,6 +54,7 @@ add_message_files(
   DIRECTORY msg
   FILES
       AcousticCurrentProfile.msg
+      Adcp.msg
       Compass.msg
       Ctd.msg
       DepthPressure.msg
@@ -81,6 +82,7 @@ add_message_files(
       UbloxSatellite.msg
       UbloxSatellites.msg
       UbloxSurveyIn.msg
+      WaterCurrentProfile.msg
 )
 
 ## Generate services in the 'srv' folder
